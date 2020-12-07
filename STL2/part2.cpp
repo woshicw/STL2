@@ -12,21 +12,21 @@ CIS 1202
 using namespace std;
 
 
-template <typename Template>
+template <class Template>
 
 
-Template half(Template interger)
+Template half(Template integer)
 {
-    Template quotient;
-    quotient = interger / 2;
-    return quotient;
+    
+   return integer / 2;
+     
 }
-int half(int interger)
+int half(int integer)
 {
     int quotient;
 
 
-    quotient = round(static_cast<double>(interger) / 2);
+    quotient = round(static_cast<double>(integer) / 2);
         
     return quotient;
 }
